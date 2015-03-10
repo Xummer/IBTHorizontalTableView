@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C117844D1AADA513005A5C71 /* IBTHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C117844C1AADA513005A5C71 /* IBTHorizontalTableViewCell.m */; };
+		C117844E1AADA513005A5C71 /* IBTHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C117844C1AADA513005A5C71 /* IBTHorizontalTableViewCell.m */; };
 		C150D2B81AAD8DD60059F8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2B71AAD8DD60059F8BD /* main.m */; };
 		C150D2BB1AAD8DD60059F8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2BA1AAD8DD60059F8BD /* AppDelegate.m */; };
 		C150D2BE1AAD8DD60059F8BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2BD1AAD8DD60059F8BD /* ViewController.m */; };
-		C150D2C11AAD8DD60059F8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D2BF1AAD8DD60059F8BD /* Main.storyboard */; };
 		C150D2C31AAD8DD60059F8BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C150D2C21AAD8DD60059F8BD /* Images.xcassets */; };
 		C150D2C61AAD8DD60059F8BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C150D2C41AAD8DD60059F8BD /* LaunchScreen.xib */; };
 		C150D2D21AAD8DD60059F8BD /* IBTHorizontalTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2D11AAD8DD60059F8BD /* IBTHorizontalTableViewTests.m */; };
+		C150D2DE1AAD92790059F8BD /* IBTHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2DD1AAD92790059F8BD /* IBTHorizontalTableView.m */; };
+		C150D2DF1AAD92790059F8BD /* IBTHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C150D2DD1AAD92790059F8BD /* IBTHorizontalTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C117844B1AADA513005A5C71 /* IBTHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		C117844C1AADA513005A5C71 /* IBTHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTHorizontalTableViewCell.m; sourceTree = "<group>"; };
 		C150D2B21AAD8DD60059F8BD /* IBTHorizontalTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBTHorizontalTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C150D2B61AAD8DD60059F8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C150D2B71AAD8DD60059F8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +39,15 @@
 		C150D2BA1AAD8DD60059F8BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C150D2BC1AAD8DD60059F8BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C150D2BD1AAD8DD60059F8BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C150D2C01AAD8DD60059F8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C150D2C21AAD8DD60059F8BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C150D2C51AAD8DD60059F8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C150D2CB1AAD8DD60059F8BD /* IBTHorizontalTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBTHorizontalTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C150D2D01AAD8DD60059F8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C150D2D11AAD8DD60059F8BD /* IBTHorizontalTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBTHorizontalTableViewTests.m; sourceTree = "<group>"; };
+		C150D2DC1AAD92790059F8BD /* IBTHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTHorizontalTableView.h; sourceTree = "<group>"; };
+		C150D2DD1AAD92790059F8BD /* IBTHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTHorizontalTableView.m; sourceTree = "<group>"; };
+		C150D2E41AAD99D40059F8BD /* IBTHorizontalTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTHorizontalTableViewDataSource.h; sourceTree = "<group>"; };
+		C150D2E51AAD9AB80059F8BD /* IBTHorizontalTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTHorizontalTableViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +89,11 @@
 		C150D2B41AAD8DD60059F8BD /* IBTHorizontalTableView */ = {
 			isa = PBXGroup;
 			children = (
+				C150D2DB1AAD923C0059F8BD /* HorizontalTableView */,
 				C150D2B91AAD8DD60059F8BD /* AppDelegate.h */,
 				C150D2BA1AAD8DD60059F8BD /* AppDelegate.m */,
 				C150D2BC1AAD8DD60059F8BD /* ViewController.h */,
 				C150D2BD1AAD8DD60059F8BD /* ViewController.m */,
-				C150D2BF1AAD8DD60059F8BD /* Main.storyboard */,
 				C150D2C21AAD8DD60059F8BD /* Images.xcassets */,
 				C150D2C41AAD8DD60059F8BD /* LaunchScreen.xib */,
 				C150D2B51AAD8DD60059F8BD /* Supporting Files */,
@@ -117,6 +125,19 @@
 				C150D2D01AAD8DD60059F8BD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C150D2DB1AAD923C0059F8BD /* HorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C150D2DC1AAD92790059F8BD /* IBTHorizontalTableView.h */,
+				C150D2DD1AAD92790059F8BD /* IBTHorizontalTableView.m */,
+				C150D2E41AAD99D40059F8BD /* IBTHorizontalTableViewDataSource.h */,
+				C150D2E51AAD9AB80059F8BD /* IBTHorizontalTableViewDelegate.h */,
+				C117844B1AADA513005A5C71 /* IBTHorizontalTableViewCell.h */,
+				C117844C1AADA513005A5C71 /* IBTHorizontalTableViewCell.m */,
+			);
+			path = HorizontalTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C150D2C11AAD8DD60059F8BD /* Main.storyboard in Resources */,
 				C150D2C61AAD8DD60059F8BD /* LaunchScreen.xib in Resources */,
 				C150D2C31AAD8DD60059F8BD /* Images.xcassets in Resources */,
 			);
@@ -220,8 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C150D2BE1AAD8DD60059F8BD /* ViewController.m in Sources */,
+				C117844D1AADA513005A5C71 /* IBTHorizontalTableViewCell.m in Sources */,
 				C150D2BB1AAD8DD60059F8BD /* AppDelegate.m in Sources */,
 				C150D2B81AAD8DD60059F8BD /* main.m in Sources */,
+				C150D2DE1AAD92790059F8BD /* IBTHorizontalTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C117844E1AADA513005A5C71 /* IBTHorizontalTableViewCell.m in Sources */,
 				C150D2D21AAD8DD60059F8BD /* IBTHorizontalTableViewTests.m in Sources */,
+				C150D2DF1AAD92790059F8BD /* IBTHorizontalTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +268,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C150D2BF1AAD8DD60059F8BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C150D2C01AAD8DD60059F8BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C150D2C41AAD8DD60059F8BD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +430,7 @@
 				C150D2D71AAD8DD60059F8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C150D2D81AAD8DD60059F8BD /* Build configuration list for PBXNativeTarget "IBTHorizontalTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				C150D2DA1AAD8DD60059F8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
